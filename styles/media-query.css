@@ -10,6 +10,7 @@
 
     section#login {
         width: 80vw;
+        height: 55vh;
     }
 
     #imagem {
@@ -18,7 +19,7 @@
         height: 100%;
         background-position: center;
         background-size: cover;
-        background:#01e0ca url('../imagens/img010.jpg') no-repeat;
+        background:#01e0ca url('../imagens/imgg07.jpg') no-repeat;
         
     }
 
@@ -38,6 +39,7 @@
 
     section#login {
         width: 935px;
+        height: 55vh;
     }
 
     #imagem {
@@ -47,7 +49,7 @@
         height: 100%;
         background-size: cover;
         background-position: center;
-        background:#01e0ca url('../imagens/imgg03.jpg') no-repeat;
+        background:#01e0ca url('../imagens/imgg12.jpg') no-repeat;
     }
 
     #form {

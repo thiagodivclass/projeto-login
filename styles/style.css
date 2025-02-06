@@ -21,14 +21,16 @@ main {
 
 main .fa-user, .fa-key {
 color: #97ddd6;
+
+
+
 }
 
 
 section#login {
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 50%;    
     background-color: #01e0ca;
     width: 250px;
     height: 500px;
@@ -37,6 +39,7 @@ section#login {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 #imagem {
@@ -66,12 +69,45 @@ form .campo {
     display: block;
     width: 100%;
     height: 40px;
-    padding: 10px;
     background-color: #013631;
-    border-radius: 5px;
+    border-radius: 15px;
     margin-bottom: 5px;
+    
 
 }
+
+.campo input:focus-within {
+    background-color: #fff;
+   
+}
+
+.campo input {
+   
+   border-radius: 15px;
+   width: calc(100% - 55px);
+   height: 38px;
+   padding: 10px;
+   border: none;
+   text-align: center;
+   background-color: #01e0ca;
+   border: 2px solid #013631;
+   
+    
+
+
+   transform: translateY(-2.2px);
+}
+
+
+
+.campo i {    
+    padding: 10px;
+    width: 40px;
+    font-size: 1.3em;
+    margin-left: 10px;
+ }
+
+
 
 .fa-user {
     font-size: 20px;
@@ -84,9 +120,9 @@ form .campo {
 #form input[type=submit] {
 display: block;
 width: 100%;
-height: 30px;
+height: 40px;
 cursor: pointer;
-border-radius: 5px;
+border-radius: 10px;
 border: none;
 background-color: #013631;
 color: #02f8e0;
@@ -99,6 +135,7 @@ padding-bottom: 5px;
 
     background-color:#97ddd6;
     color: #013631;
+    
    
 }
 
@@ -106,13 +143,13 @@ padding-bottom: 5px;
     display: block;
     text-decoration: none;
     width: 100%;
-    height: 30px;
+    height: 40px;
     background-color: #97ddd6;
     color: #013631;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-top: 10px;
-    padding: 2px;
+    padding-top: 7px;
 
 }
 
