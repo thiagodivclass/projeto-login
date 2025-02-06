@@ -84,7 +84,7 @@ form .campo {
 .campo input {
    
    border-radius: 15px;
-   width: calc(100% - 55px);
+   width: calc(100% - 54.5px);
    height: 38px;
    padding: 10px;
    border: none;
@@ -95,7 +95,7 @@ form .campo {
     
 
 
-   transform: translateY(-2.2px);
+   transform: translateY(-2.5px);
 }
 
 
