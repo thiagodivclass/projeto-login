@@ -48,3 +48,11 @@ section#login {
     color: #013631;
 }
 
+#form h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#form p {
+    font-size: 0.8em;
+}

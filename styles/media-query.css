@@ -2,7 +2,7 @@
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
 
     body {
         background: linear-gradient(to top, #01e0ca, #008073);
@@ -37,24 +37,23 @@
     }
 
     section#login {
-        width: 950px;
+        width: 935px;
     }
 
     #imagem {
-        float: left;
-        width: 30%;
+        display: block;
+        float: right;
+        width: 50%;
         height: 100%;
-        
+        background-size: cover;
+        background-position: center;
+        background:#01e0ca url(../imagens/imgg03.jpg) no-repeat;
     }
 
     #form {
-        float: right;
-        width: 70%;
+        float: left;
+        width: 50%;
     }
 
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media screen and (min-width: 1200px) {
-
-}
