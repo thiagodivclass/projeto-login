@@ -56,3 +56,11 @@ section#login {
 #form p {
     font-size: 0.8em;
 }
+
+.fa-user {
+    font-size: 20px;
+}
+
+.fa-key {
+    font-size: 17.5px;
+}
