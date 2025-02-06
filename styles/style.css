@@ -163,6 +163,8 @@ padding-bottom: 5px;
 #form a:hover {
 background-color: #013631;
 color: #97ddd6;
+border-radius: 20px;
+
 }
 
 form .button{
