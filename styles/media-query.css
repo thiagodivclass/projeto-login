@@ -14,21 +14,24 @@
 
     #imagem {
         float: left;
-        width: 30%;
+        width: 36.5%;
         height: 100%;
+        background-position: center center;
+        background-size: cover;
+        background:#01e0ca url(../imagens/img1.jpg) repeat;
         
     }
 
     #form {
         float: right;
-        width: 70%;
+        width: 63%;
     }
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    
+
     body {
         background: linear-gradient(to top, #01e0ca, #008073);
     }
@@ -39,14 +42,14 @@
 
     #imagem {
         float: left;
-        width: 50%;
+        width: 35%;
         height: 100%;
         
     }
 
     #form {
         float: right;
-        width: 50%;
+        width: 65%;
     }
 
 }
