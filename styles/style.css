@@ -1,1 +1,48 @@
 @charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #008073;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #01e0ca;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+}
+
+#imagem {
+    display: block;
+    background:#01e0ca url(../imagens/img1.jpg) no-repeat;
+    height: 167px;    
+    background-size: cover;
+    background-position: center center;
+}
+
+#form {
+    display: block;
+    padding: 10px;
+    color: #013631;
+}
+
