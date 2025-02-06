@@ -117,6 +117,13 @@ form .campo {
     font-size: 17.5px;
 }
 
+.fa-envelope {
+    font-size: 1.2em;
+    margin-left: 5px;
+}
+
+
+
 #form input[type=submit] {
 display: block;
 width: 100%;
