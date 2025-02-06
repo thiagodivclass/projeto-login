@@ -85,13 +85,13 @@ form .campo {
 .campo input {
    
    border-radius: 15px;
-   width: calc(100% - 54.5px);
-   height: 38.5px;
+   width: calc(100% - 55px);
+   /* height: 38px; */
    padding: 10px;
    border: none;
    text-align: center;
    background-color: #01e0ca;
-   border: 2px solid #013631;
+   border:  1px solid #013631;
    box-sizing: border-box;
    
    
