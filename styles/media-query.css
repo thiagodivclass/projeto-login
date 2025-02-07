@@ -13,6 +13,10 @@
         height: 55vh;
     }
 
+    main .fa-user:hover, .fa-key:hover {
+        color: #fff;
+    }
+
     #imagem {
         float: left;
         width: 40%;
@@ -28,6 +32,14 @@
         width: 60%;
     }
 
+    #form a:hover {
+        background-color: #013631;
+        color: #97ddd6;
+        border-radius: 20px;
+        text-decoration: underline;
+        
+        }
+
    
     
 }
@@ -37,6 +49,10 @@
 
     body {
         background: linear-gradient(to top, #01e0ca, #008073);
+    }
+
+    main .fa-user:hover, .fa-key:hover {
+        color: #fff;
     }
 
     section#login {
@@ -58,6 +74,14 @@
         float: left;
         width: 50%;
     }
+
+    #form a:hover {
+        background-color: #013631;
+        color: #97ddd6;
+        border-radius: 20px;
+        text-decoration: underline;
+        
+        }
 
     
 

@@ -31,9 +31,7 @@ cursor: pointer;
 
 }
 
-main .fa-user:hover, .fa-key:hover {
-    color: #fff;
-}
+
 
 
 section#login {
@@ -180,7 +178,6 @@ padding-bottom: 5px;
 background-color: #013631;
 color: #97ddd6;
 border-radius: 20px;
-text-decoration: underline;
 
 }
 
