@@ -31,6 +31,10 @@ cursor: pointer;
 
 }
 
+main .fa-user:hover, .fa-key:hover {
+    color: #fff;
+}
+
 
 section#login {
     position: absolute;
