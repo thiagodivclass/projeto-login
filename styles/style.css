@@ -14,6 +14,10 @@ html, body {
 }
 
 main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     width: 100vw;
     position: relative;
@@ -29,8 +33,6 @@ color: #97ddd6;
 
 section#login {
     position: absolute;
-    top: 50%;
-    left: 50%;    
     background-color: #01e0ca;
     width: 250px;
     height: 500px;
@@ -39,7 +41,7 @@ section#login {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
-    transform: translate(-50%, -50%);
+   
 }
 
 #imagem {
@@ -66,7 +68,9 @@ section#login {
 }
 
 form .campo {
-    display: block;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
     width: 100%;
     height: 40px;
     background-color: #013631;
@@ -85,9 +89,9 @@ form .campo {
 .campo input {
    
    border-radius: 15px;
-   width: calc(100% - 55px);
+   width: calc(100% - 20px);
    /* height: 38px; */
-   padding: 0.8em 0.3em 0.6em 0.3em;
+   /* padding: 0.8em 0.3em 0.6em 0.3em; */
    border: none;
    text-align: center;
    background-color: #01e0ca;
@@ -108,7 +112,7 @@ form .campo {
     padding: 10px;
     width: 40px;
     font-size: 1.3em;
-    margin-left: 10px;
+    /* margin-left: 5px; */
  }
 
 
