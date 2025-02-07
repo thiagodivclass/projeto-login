@@ -25,6 +25,7 @@ main {
 
 main .fa-user, .fa-key {
 color: #97ddd6;
+cursor: pointer;
 
 
 
